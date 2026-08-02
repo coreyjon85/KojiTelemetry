@@ -33,6 +33,11 @@ To get started, you will need Home Assistant running on a device, connected to y
 
 7. Pull data from Influx into Grafana and create displays.
 
+8. I'll admit - this guide is an "after the fact". There was definitely some keyboard smashing and general violence towards electronics. It does work (can work?). Once set up - it takes a minute to get accustomed to the lay of the land. How to configure sensors, how to pipe the data into influx. how to configure influx databases, and getting data to display in Grafana. Also, another issue (major importante) is choosing how and where you apply sensor filtering & calibration. This is definitely a compromise between absolute accuracy, and relative accuracy. The low cost sensors do not have an exactly linear output - so some calibration is required. Some calibration tips/tricks are below.
+
+# Sensor Calibration
++ Deep Dive
+
 # Images
 +To Upload
 
