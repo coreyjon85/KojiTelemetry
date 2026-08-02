@@ -36,7 +36,15 @@ To get started, you will need Home Assistant running on a device, connected to y
 8. I'll admit - this guide is an "after the fact". There was definitely some keyboard smashing and general violence towards electronics. It does work (can work?). Once set up - it takes a minute to get accustomed to the lay of the land. How to configure sensors, how to pipe the data into influx. how to configure influx databases, and getting data to display in Grafana. Also, another issue (major importante) is choosing how and where you apply sensor filtering & calibration. This is definitely a compromise between absolute accuracy, and relative accuracy. The low cost sensors do not have an exactly linear output - so some calibration is required. Some calibration tips/tricks are below.
 
 # Sensor Calibration
-+ Deep Dive
++ Below is what I did. Disclaimer* - This is probably not "THE" way. It's merely "A" way. No where will you see "Correct Way" or "Only Way". What follows is "The Way I Did It".
+
+1. Grab a precision calibrated 6-1/2 digit multimeter and a finely trusted PT100 temp probe. Mate the sensor to the multimeter. Insert the probe into the provided external reference probe port on the 3d printed housing and feed into the incubator. Place all of the sensors close together. Heat incubator to above the target setpoint you expect to use. For me, I started the calibration run at 45C. I chose 5C increments for this.
+
+2.Starting at 45C in my case. I allowed the incubator and sensors to stabilize overnight. Trusting the PT100 above all else, and brought the other sensors into cal by adding offsets in ESPhome for each sensor until they were in 0.05C alignment (close enough - at this level its mostly noise anyway on these sensors). 
+
+3. I recorded the offsets, and the temperature readings of the incubator, pt100 probe (reference), and the other sensors. Now decrease the incubator by 5C, wait until sensors stabilize, and record values. Continue until you get back down to room temp.
+
+4. Use the data to graph sensor output. you will notice divergence. Damn cheap sensors can not be trusted. But these "slopes" can be used to generate calibration curves. Using this data and some clever data presentation tricks in Grafana (additional filtering/buckets) you should be able to achieve 0.1C repeatable accuracy.
 
 # Images
 +To Upload
