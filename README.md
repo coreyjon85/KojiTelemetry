@@ -17,7 +17,16 @@ The main features are:
 + Easy to add different/more sensors.  
 
 # Overview
+1. Home Assistant
+   +[Installation Guide](https://www.home-assistant.io/installation/)
+   +I installed it on an old Linux laptop, but you can run it in Docker on a server, Raspberry Pie, Odroid, just about anything. This becomes the central hub. The IOT to world interface. There is certainly more than one way to do this - but this is a mostly plug and play approach.
 
+2. ESPhome
+   +[ESP Home Website](https://esphome.io/)
+   +[ESPhome Webflash Tool](https://web.esphome.io/)
+   ++Use this tool to flash the ESP device with ESPhome. 
+
+# Set Up
 
 # BOM
 1. [ESP32-DEVKITM-1](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-DEVKITM-1/13532113?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlglXqGW4TPwWqV9fLs0IMHkx&gclid=CjwKCAjw1bvTBhBbEiwAzbP8L6URBTwrSLkT77qroA4ytF3CREPpHZEOK6bwIzumCABcsSR3MVFebhoCGncQAvD_BwE)
