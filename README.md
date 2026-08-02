@@ -24,7 +24,7 @@ The main features are:
 2. ESPhome
    +[ESP Home Website](https://esphome.io/)
    +[ESPhome Webflash Tool](https://web.esphome.io/)
-   ++Use this tool to flash the ESP device with ESPhome. 
+   +Use this tool to flash the ESP device with ESPhome. 
 
 # Set Up
 
