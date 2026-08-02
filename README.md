@@ -17,13 +17,19 @@ The main features are:
 + Easy to add different/more sensors.  
 
 # Overview
+To get started, you will need Home Assistant running on a device, connected to your network. Follow the Home Assistant installation guide and ESPhome instructions to add ESPhome into Home assistant. Flash the ESP32 device using the ESPhome web flash tool. Ensure you can connect to the ESP32 within Home assistant before continuing. Install InfluxDB and Grafana inside Home Assistant. Connect and configure sensors on the ESP32. Pipe data from the ESP32 to InfluxDB via ESPhome. Use grafana to pull and display InfluxDB information. This is just the high level overview and assumes you have some experience with Influx and Grafana. 
+
 1. [Home Assistant Installation Guide](https://www.home-assistant.io/installation/)
 : I installed it on an old Linux laptop, but you can run it in Docker on a server, Raspberry Pie, Odroid, just about anything. This becomes the central hub. The IOT to world interface.
    
 3. [ESP Home Website](https://esphome.io/)
 
 4. [ESPhome Webflash Tool](https://web.esphome.io/)
-   : Use this tool to flash the ESP device with ESPhome. 
+   : Use this tool to flash the ESP device with ESPhome.
+
+5. [InfluxDB & Grafana Installation video guide](https://www.youtube.com/watch?v=k-7dO1o52dQ&t=342s) - Credit to Smart Home Australia. 
+
+6. [InfluxDB - the not so straight forward set up guide](https://community.home-assistant.io/t/the-correct-silly-walk-to-set-up-influxdb-as-of-august-2025/918306) - Credit & Thanks to Dave1041 over on H.A. Community guides.
 
 # Set Up
 
