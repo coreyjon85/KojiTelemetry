@@ -17,15 +17,12 @@ The main features are:
 + Easy to add different/more sensors.  
 
 # Overview
-1. Home Assistant
-   +[Installation Guide](https://www.home-assistant.io/installation/)
-   +I installed it on an old Linux laptop, but you can run it in Docker on a server, Raspberry Pie, Odroid, just about anything. This becomes the central hub. The IOT to world interface. There is certainly more than one way to do this - but this is a mostly plug and play approach.
+1. [Home Assistant Installation Guide](https://www.home-assistant.io/installation/)
+  -I installed it on an old Linux laptop, but you can run it in Docker on a server, Raspberry Pie, Odroid, just about anything. This becomes the central hub. The IOT to world interface. There is certainly more than one way to do this - but this is a mostly plug and play approach.
 
-2. ESPhome
-+[ESP Home Website](https://esphome.io/)
-
-+[ESPhome Webflash Tool](https://web.esphome.io/)
-   -Use this tool to flash the ESP device with ESPhome. 
+2. [ESP Home Website](https://esphome.io/)
+   -[ESPhome Webflash Tool](https://web.esphome.io/)
+     -Use this tool to flash the ESP device with ESPhome. 
 
 # Set Up
 
