@@ -18,12 +18,12 @@ The main features are:
 
 # Overview
 1. [Home Assistant Installation Guide](https://www.home-assistant.io/installation/)
-  -I installed it on an old Linux laptop, but you can run it in Docker on a server, Raspberry Pie, Odroid, just about anything. This becomes the central hub. The IOT to world interface.
+: I installed it on an old Linux laptop, but you can run it in Docker on a server, Raspberry Pie, Odroid, just about anything. This becomes the central hub. The IOT to world interface.
    
 3. [ESP Home Website](https://esphome.io/)
 
 4. [ESPhome Webflash Tool](https://web.esphome.io/)
-  -Use this tool to flash the ESP device with ESPhome. 
+   : Use this tool to flash the ESP device with ESPhome. 
 
 # Set Up
 
