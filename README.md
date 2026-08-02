@@ -22,9 +22,9 @@ The main features are:
    +I installed it on an old Linux laptop, but you can run it in Docker on a server, Raspberry Pie, Odroid, just about anything. This becomes the central hub. The IOT to world interface. There is certainly more than one way to do this - but this is a mostly plug and play approach.
 
 2. ESPhome
-   +[ESP Home Website](https://esphome.io/)
-   +[ESPhome Webflash Tool](https://web.esphome.io/)
-   +Use this tool to flash the ESP device with ESPhome. 
++[ESP Home Website](https://esphome.io/)
++[ESPhome Webflash Tool](https://web.esphome.io/)
+  +Use this tool to flash the ESP device with ESPhome. 
 
 # Set Up
 
