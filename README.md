@@ -6,5 +6,12 @@ Grow good Koji. I started with a pan, a heated low wattage seed mat, and two tow
 
 # Features
 The main features are:
-+ one
-+ two
++ Low cost ESP32
++ Low cost sensors
+  +  Temperature Probes (waterproof): DS18B20
+  +  Temperature/Humidity Probe: DHT22
++ 3D Printed housing
++ Easy to source parts
++ Open Source software
++ Relatively accurate (after calibration*) for the price.
++ Easy to add different/more sensors.  
